@@ -1,6 +1,6 @@
 {
   "name": "simple-merge-reducers",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This function allows to merge multiple redux reducers",
   "main": "dist/index.js",
   "scripts": {
