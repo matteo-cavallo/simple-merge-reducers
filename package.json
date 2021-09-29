@@ -1,14 +1,14 @@
 {
   "name": "simple-merge-reducers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This function allows to merge multiple redux reducers",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["merge", "reducers", "redux"],
   "author": "",
   "license": "ISC",
   "dependencies": {
