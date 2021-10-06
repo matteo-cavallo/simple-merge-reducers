@@ -20,5 +20,5 @@ const initialState: StateType = {
 const reducer1 = createReducer(initialState, builder => {...})
 const reducer2 = createReducer(initialState, builder => {...})
 
-const mergedReducer = mergeReducers<MyStateType>(initialState, reducer1, reducer2, ...)
+const mergedReducer = mergeReducers<StateType>(initialState, reducer1, reducer2, ...)
 ```
