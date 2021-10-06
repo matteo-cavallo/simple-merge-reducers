@@ -7,5 +7,18 @@ All the reducers share the same state, and the type of the initial state must be
 ```typescript
 import {mergeReducers} from 'simple-merge-reducers'
 
+interface StateType {
+  user: User | null
+  loading: boolean
+}
+
+const initialState: StateType = {
+  user: null,
+  loading: false
+}
+
+const reducer1 = createReducer(initialState, builder => {...})
+const reducer2 = createReducer(initialState, builder => {...})
+
 const mergedReducer = mergeReducers<MyStateType>(initialState, reducer1, reducer2, ...)
 ```
